@@ -10,6 +10,15 @@ The notebook downloads the data with the SDK, trains a baseline, writes
 `submission.csv` and submits it. Paste your ml-arena.com API token (Profile page) in
 the setup cell.
 
+## Learn the method first
+
+New to turning text into model inputs? Work through the standalone example notebook before
+the competition — it covers tokenization, embeddings, similarity/visualization, and a
+transfer-learning classifier on top of pre-trained embeddings, on a separate (20 Newsgroups)
+dataset:
+
+▶️ https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-3/text_embeddings_example.ipynb
+
 ## Data
 
 `client.download_dataset(174, "data/")` pulls the competition files:
