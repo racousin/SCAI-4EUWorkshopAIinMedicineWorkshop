@@ -13,9 +13,10 @@ the setup cell.
 ## Learn the method first
 
 New to turning text into model inputs? Work through the standalone example notebook before
-the competition — it covers tokenization, embeddings, similarity/visualization, and a
-transfer-learning classifier on top of pre-trained embeddings, on a separate (20 Newsgroups)
-dataset:
+the competition — it covers tokenization, embeddings, and similarity/visualization on text
+(20 Newsgroups), then the same transfer-learning recipe (embed with a pre-trained model, train
+a light classifier on top) on a different domain — molecules, for blood-brain-barrier
+prediction:
 
 ▶️ https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-3/text_embeddings_example.ipynb
 

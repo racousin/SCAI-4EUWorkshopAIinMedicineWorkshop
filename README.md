@@ -8,6 +8,18 @@ notebook in the browser — no local setup required.
 > For notebooks that benchmark or train on a GPU, enable it first in Colab:
 > **Runtime → Change runtime type → Hardware accelerator → GPU**.
 
+## Schedule (3 days)
+
+Each session pairs a **worked example** (learn the method) with a **competition starter**
+(apply it). The warm-up is pre-work to run before Day 1.
+
+| Day | Session | Modality | You'll learn | Competition |
+| --- | --- | --- | --- | --- |
+| Warm-up *(before Day 1)* | PyTorch, optimization & GPUs | — | tensors, gradient descent, CPU vs GPU | — |
+| **Day 1** | Survival Prediction | tabular | data prep → Random Forest / boosting | [172](https://ml-arena.com/viewcompetition/172) |
+| **Day 2** | Blood Cell Classification | images | CNNs & transfer learning | [173](https://ml-arena.com/viewcompetition/173) |
+| **Day 3** | Clinical Note Triage | text | embeddings & transfer learning | [174](https://ml-arena.com/viewcompetition/174) |
+
 ## Warm-up — PyTorch, optimization & GPUs
 
 Get comfortable with tensors, gradient descent, and CPU-vs-GPU performance before the
