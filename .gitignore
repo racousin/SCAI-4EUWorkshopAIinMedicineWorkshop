@@ -1,0 +1,38 @@
+# Personal preparation / local EDA notebooks — keep them out of the public workshop repo
+*_analysis.ipynb
+
+# Competition datasets pulled by the SDK at runtime (Sessions 2 & 3).
+# NOTE: Session 1's data/ is committed on purpose, so it is force-kept below.
+Hands-On-Session-2/data/
+Hands-On-Session-3/data/
+!Hands-On-Session-1/data/
+
+# Generated submissions
+submission.csv
+**/submission.csv
+
+# Jupyter / Python cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.virtual_documents/
+
+# Model checkpoints & large local artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Notebook UI extras
+wandb/
+mlruns/
