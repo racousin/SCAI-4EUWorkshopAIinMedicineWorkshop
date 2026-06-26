@@ -23,12 +23,15 @@ Each session pairs a **worked example** (learn the method) with a **competition 
 ## Warm-up — PyTorch, optimization & GPUs
 
 Get comfortable with tensors, gradient descent, and CPU-vs-GPU performance before the
-sessions begin.
+sessions begin. The last two notebooks are a quick tour of two more computer-vision
+tasks — object detection and image generation — using transfer learning on a GPU.
 
 | Notebook | Open in Colab |
 | --- | --- |
 | Optimization & training (gradient descent → MLP, CPU vs GPU) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-warmup/optimization_warmup.ipynb) |
 | CPU vs GPU benchmark (matrix multiply + BERT forward pass) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-warmup/cpu_gpu_benchmark.ipynb) |
+| Object detection — fine-tune YOLOv8 on the Aquarium dataset | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-warmup/object_detection_yolo.ipynb) |
+| Image generation — train a DCGAN to synthesize faces | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-warmup/image_generation_dcgan.ipynb) |
 
 ## Session 1 — 2-Month Survival Prediction (tabular)
 
@@ -39,6 +42,7 @@ admission data. Metric: **accuracy**.
 | Notebook | Open in Colab |
 | --- | --- |
 | Data preparation — worked example | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-1/data_preparation_example.ipynb) |
+| Data analysis & problem understanding — EDA companion | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-1/survival_prediction_analysis.ipynb) |
 | Survival prediction — competition starter | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-1/survival_prediction.ipynb) |
 
 ## Session 2 — Blood Cell Classification (images)
@@ -49,6 +53,7 @@ Classify 28×28 RGB microscopy images into 8 cell types. Metric: **F1-macro**.
 | Notebook | Open in Colab |
 | --- | --- |
 | Image classification — worked example | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-2/image_classification_example.ipynb) |
+| Data analysis & problem understanding — EDA companion | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-2/blood_cell_classification_analysis.ipynb) |
 | Blood cell classification — competition starter | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/racousin/SCAI-4EUWorkshopAIinMedicineWorkshop/blob/main/Hands-On-Session-2/blood_cell_classification.ipynb) |
 
 ## Session 3 — Clinical Note Triage (text)
